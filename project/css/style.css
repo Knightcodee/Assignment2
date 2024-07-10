@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+header {
+    background-color: 	#1F74BA;
+    padding: 10px;
+    margin: 0;
+}
+.header-container{
+    height: auto;
+    display: grid;
+}
+.header-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.site-name {
+    font-size: 24px;
+    font-weight: bold;
+    color:  #ffffff;
+}
+
+/* dashboard */
+.container {
+    display: grid;
+    grid-template-areas: 
+        "sidebar main-content";
+    grid-template-columns: 250px 1fr;
+    height: 100vh;
+    height: calc(100vh - 60px);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    overflow-y: auto;
+}
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    margin-top: 0; 
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a:active  {
+    background-color:#1F74BA;
+    color: #ffffff;
+}
+
+.sidebar ul li a i {
+    margin-right: 10px;
+}
+
+.sidebar .account {
+    margin-top: auto;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .account i {
+    margin-right: 10px;
+}
+/* main */
+.main-content {
+    grid-area: main-content;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+}
+
+.top-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.metric {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.metric h3 {
+    margin: 0 0 10px;
+}
+
+.metric p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.customers, .departments, .media {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.customers h2, .departments h2, .media h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+.media-types {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.media-type {
+    background-color: #ffe0b2;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.media-type h3 {
+    margin: 0 0 10px;
+}
+
+.media-type p {
+    font-size: 24px;
+    margin: 0;
+}
