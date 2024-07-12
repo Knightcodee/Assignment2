@@ -121,7 +121,7 @@ header {
 .MediaImages{
     width: 100%;
     display: flex;
-    background-color: rgb(80, 141, 78);
+    background-color: #F09120;
     margin-top: 15px;
     border: 1px solid;
     border-radius: 3px;
@@ -155,7 +155,7 @@ header {
 .MediaVideo{
     display: flex;
     width: 100%;
-    background-color: rgb(80, 141, 78);
+    background-color: #F09120;
     /* margin-left: 20px; */
     border: 1px solid;
     border-radius: 3px;
@@ -181,7 +181,7 @@ header {
 .MediaAudio{
     display: flex;
     width: 100%;
-    background-color: rgb(80, 141, 78);
+    background-color: #F09120;
     /* margin-left: 20px; */
     border: 1px solid;
     border-radius: 3px;
@@ -197,7 +197,7 @@ header {
 .MediaAudioAddSize{
     width: 300px;
     margin: 20px;
-    background-color: rgb(128, 175, 129);
+    background-color: #F09120;
     /* height: 300px; */
     padding: 3px;
     border: 2px solid;
