@@ -37,7 +37,11 @@ header {
     font-weight: bold;
     color: #ffffff;
 }
-
+.account{
+   position: absolute;
+   bottom: 0px;
+   margin-left: 10px;
+}
 /* dashboard */
 .container {
     display: grid;
@@ -80,12 +84,12 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.sidebar ul li a:hover {
+.sidebar ul li .action a:hover {
     background-color: #1F74BA;
     color: #ffffff;
 }
 
-.sidebar ul li a.active {
+.sidebar ul li .action a.active {
     background-color: #1F74BA;
     color: #ffffff;
 }
