@@ -90,10 +90,6 @@ header {
     color: #ffffff;
 }
 
-/* .sidebar .activeproperty a{
-    background-color:#1F74BA;
-    color: #ffffff;
-} */
 
 .sidebar ul li a i {
     margin-right: 10px;
@@ -109,6 +105,9 @@ header {
 .sidebar .account i {
     margin-right: 10px;
 }
+
+/* body */
+
 .tableDiv{
     background-color: #ffffff;
     margin-left: 0px;
@@ -136,9 +135,7 @@ tr:hover{
     background-color: #88bde9;
     color: black;
 }
-/* tr:nth-child(even){
-    background-color: indianred;
-} */
+
  .TableForward{
     display: flex;
     align-items: center;
