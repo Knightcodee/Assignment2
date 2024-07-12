@@ -3,24 +3,29 @@ body {
     background-color: rgb(255, 255, 255);
     margin: 0;
 }
+
 header {
-    background-color: 	#1F74BA;
+    background-color: #1F74BA;
     padding: 10px;
     margin: 0;
 }
-.header-container{
+
+.header-container {
     height: auto;
     display: grid;
 }
+
 .header-container {
     display: grid;
     justify-content: space-between;
     align-items: center;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     width: 60px;
     height: 60px;
@@ -30,13 +35,13 @@ header {
 .site-name {
     font-size: 24px;
     font-weight: bold;
-    color:  #ffffff;
+    color: #ffffff;
 }
 
 /* dashboard */
 .container {
     display: grid;
-    grid-template-areas: 
+    grid-template-areas:
         "sidebar main-content";
     grid-template-columns: 250px 1fr;
     height: 100vh;
@@ -59,7 +64,7 @@ header {
     list-style-type: none;
     padding: 0;
     width: 100%;
-    margin-top: 0; 
+    margin-top: 0;
 }
 
 .sidebar ul li {
@@ -75,11 +80,20 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.sidebar ul li a:hover,
-.sidebar ul li a:active  {
-    background-color:#1F74BA;
+.sidebar ul li a:hover {
+    background-color: #1F74BA;
     color: #ffffff;
 }
+
+.sidebar ul li a.active {
+    background-color: #1F74BA;
+    color: #ffffff;
+}
+
+/* .sidebar .activeproperty a{
+    background-color:#1F74BA;
+    color: #ffffff;
+} */
 
 .sidebar ul li a i {
     margin-right: 10px;
@@ -95,6 +109,7 @@ header {
 .sidebar .account i {
     margin-right: 10px;
 }
+
 /* main */
 .main-content {
     grid-area: main-content;
@@ -126,13 +141,17 @@ header {
     margin: 0;
 }
 
-.customers, .departments, .media {
+.customers,
+.departments,
+.media {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
 }
 
-.customers h2, .departments h2, .media h2 {
+.customers h2,
+.departments h2,
+.media h2 {
     margin-top: 0;
 }
 
@@ -142,7 +161,8 @@ table {
     margin-top: 20px;
 }
 
-table th, table td {
+table th,
+table td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
