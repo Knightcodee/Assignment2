@@ -133,12 +133,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     margin-left: 20px;
     padding: 10px;
     display: grid;
     grid-template-columns: auto auto auto;
-    /* grid-template-rows: auto auto; */
     gap: 50px;
 
 }
@@ -156,7 +154,6 @@ header {
     display: flex;
     width: 100%;
     background-color: #F09120;
-    /* margin-left: 20px; */
     border: 1px solid;
     border-radius: 3px;
     height: 40px;
@@ -166,13 +163,11 @@ header {
 .MediaVideoAdd{
     display: flex;
     justify-content: space-between;
-    /* grid-template-columns: auto auto auto; */
     margin-left: 200px;
 }
 .MediaVideoAddSize{
     width: 300px;
     margin: 20px;
-    /* height: 300px; */
     padding: 3px;
     border: 2px solid;
     border-radius: 5px;
@@ -182,7 +177,6 @@ header {
     display: flex;
     width: 100%;
     background-color: #F09120;
-    /* margin-left: 20px; */
     border: 1px solid;
     border-radius: 3px;
     height: 40px;
@@ -198,8 +192,7 @@ header {
     width: 300px;
     margin: 20px;
     background-color: #F09120;
-    /* height: 300px; */
     padding: 3px;
     border: 2px solid;
-    border-radius: 5px;
+
 }
