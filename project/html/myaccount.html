@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flipkart</title>
-    <link rel="stylesheet" href="../css/dept.css">
+    <link rel="stylesheet" href="../css/myaccount.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script defer src="../js/a.js"></script>
 
@@ -34,9 +34,47 @@
                 <a href="../html/myaccount.html"><i class="fas fa-user"></i> My Account</a>
             </div>
         </nav>
-    </body>
+        <div class="ImageAndForm">
+            <div class="ImageAdd">
+                <img src="../resources/flipkart.png" alt=""  name="pic" id="pic">
+                <input
+                  type="file"
+                  id="inputType"
+                  multiple="false"
+                  accept="image/*"
+                  style="display: none"
+                />
+                <a href="#Edit" class="fa fa-pencil" id="editpic" onclick="editPicture()"></a>
+            </div>
+        </div>
+        <div class="DetailsForm">
+            <div class="FormDiv">
+                <label for=""><b>Name</b></label><br>
+                <input type="text" name="name" id="name" value="Dambarudhar sahoo">
+                <a href="#Edit" class="fa fa-pencil" onclick="editName()"></a>
+            </div>
+            <div class="FormDiv">
+                <label for="Email"><b>Email</b></label><br>
+                <input type="email" name="email" id="email" value="dambarudhar@gmail.com">
+                <a href="#Edit" class="fa fa-pencil" onclick="editEmail()"></a>
+            </div>
+            <div class="FormDiv">
+                <label for="phone"><b>Phone Number</b></label><br>
+                <input type="tel" name="phone" id="phone" value="7978205121" pattern="[6-9]+[0-9] {9}">
+                <a href="#Edit" class="fa fa-pencil" onclick="editPhone()"></a>
+            </div>
+            <div class="FormDiv">
+                <label for="dob"><b>Date Of Birth</b></label><br>
+                <input type="text" name="dob" id="dob" value="11/10/2002">
+                <a href="#Edit" class="fa fa-pencil" onclick="editDob()"></a>
+            </div>
+            <div class="buttonAlign">
+                <input type="button" name="save" id="save" value="Save" onclick="SaveValue()">
+                <input type="button" name="cancel" id="cancel" value="cancel" onclick="CancelValue()">
+            </div>
+        </div>
+    </div>
 
-    </html>
     </body>
     
     </html>
